@@ -2,13 +2,14 @@ import Link from "next/link";
 
 export function PostPreview(props) {
     return (
-        <div key={props.slug}>
-            <Link href={`/posts/${props.slug}`}>
-                <h2>{props.title}</h2>
-            </Link>
+        <Link key={props.slug} href={`/posts/${props.slug}`}
+            className="p-2 my-3 block border-2 border-dashed border-primary rounded-lg
+            transition-all duration-200 hover:shadow-custom"
+        >
+            <h3>{props.title}</h3>
             <p>{props.description}</p>
             <p>{props.date}</p>
-        </div>
+        </Link>
     );
 
 }

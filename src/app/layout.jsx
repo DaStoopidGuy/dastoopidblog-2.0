@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
   return (
     < html lang="en" >
-      <body className="font-mono text-green-600 bg-black">
+      <body className="font-mono text-primary bg-background">
         <div className="container mx-auto max-w-3xl">
           {header}
           {children}
