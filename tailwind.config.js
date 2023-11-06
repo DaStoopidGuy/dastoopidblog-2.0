@@ -7,13 +7,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#009900',
+        'primary': '#008800',
         'background': '#000000',
       },
       boxShadow: {
-        'custom': '0 0 10px 1px'
-      }
+        'custom': '0 0 10px 1px',
+      },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            // color: theme('colors.primary'),
+            '*': { color: theme('colors.primary') },
+            'strong': {
+              // 'text-decoration-line': 'underline'
+              // 'text-decoration': 'underline',
+            },
+          }
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }

@@ -10,7 +10,9 @@ const HomePage = () => {
 
     return <div>
         <h1 className="text-3xl font-bold underline" >Hello from seb. 🍎</h1>
-        {postPreviews}
+        <div className="my-4 grid grid-cols-1 gap-3">
+            {postPreviews}
+        </div>
     </div>;
 };
 

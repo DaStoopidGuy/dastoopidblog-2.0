@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     < html lang="en" >
       <body className="font-mono text-primary bg-background">
-        <div className="container mx-auto max-w-3xl">
+        <div className="container mx-auto max-w-3xl px-2 min-h-screen break-words overflow-hidden">
           {header}
           {children}
           {footer}

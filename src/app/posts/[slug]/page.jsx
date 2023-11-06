@@ -14,8 +14,10 @@ export default function (props) {
     const post = getPost(slug);
     return (
         <>
-            <h1>{post.data.title}</h1>
-            <Markdown>{post.content}</Markdown>
+            <article className="prose prose-base prose-invert text-primary prose-headings:text-primary marker:text-primary max-w-none">
+                <h1>{post.data.title}</h1>
+                <Markdown>{post.content}</Markdown>
+            </article>
         </>
     );
 };
