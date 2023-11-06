@@ -1,4 +1,5 @@
 import fs from "fs";
+import Markdown from "markdown-to-jsx";
 
 function getPostContent(slug) {
     const folder = "posts/";
@@ -13,7 +14,7 @@ export default function (props) {
     return (
         <>
             <h1>{slug}! 📰</h1>
-            <p>{content}</p>
+            <Markdown>{content}</Markdown>
         </>
     );
 };
