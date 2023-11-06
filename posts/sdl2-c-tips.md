@@ -1,10 +1,10 @@
 ---
 title: SDL2 / C Tips
-created: '2023-07-15T12:08:09.908Z'
+date: '2023-07-15T12:08:09.908Z'
+description: "FUCKK"
 modified: '2023-07-15T12:08:20.073Z'
 ---
 
-# SDL2 / C Tips
 This answer is about MinGW / GCC, and not Visual Studio.
 
 This answer only applies to Windows.

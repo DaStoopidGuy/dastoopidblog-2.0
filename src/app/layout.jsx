@@ -1,4 +1,5 @@
 import "@/styles/global.css"
+import Link from "next/link";
 
 export const metadata = {
   title: 'Next.js',
@@ -10,6 +11,7 @@ export default function RootLayout({ children }) {
   const header = (
     <header>
       Temp header.. 🗿
+      <Link href={"/"}>Home</Link>
     </header>
   );
 
