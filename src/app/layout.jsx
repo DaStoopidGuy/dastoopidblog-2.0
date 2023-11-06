@@ -1,5 +1,6 @@
 import "@/styles/global.css"
 import Link from "next/link";
+import Navbar from "../components/NavBar";
 
 export const metadata = {
   title: 'Next.js',
@@ -9,10 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
   const header = (
-    <header>
-      Temp header.. 🗿
-      <Link href={"/"}>Home</Link>
-    </header>
+    <Navbar />
   );
 
   const footer = (
@@ -23,10 +21,12 @@ export default function RootLayout({ children }) {
 
   return (
     < html lang="en" >
-      <body>
-        {header}
-        {children}
-        {footer}
+      <body className="font-mono text-green-600 bg-black">
+        <div className="container mx-auto max-w-3xl">
+          {header}
+          {children}
+          {footer}
+        </div>
       </body>
     </html >
   )
