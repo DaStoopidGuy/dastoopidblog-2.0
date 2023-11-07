@@ -19,7 +19,7 @@ const HomePage = () => {
 
         <h2 className="text-xl font-bold">Give me money!!</h2>
         <p>Uh... I meant I'm available for any projects if you're looking for someone like me 🤓</p>
-        <p>&gt; I can be contacted by Email (on the top right). Apparently everyone uses this for bizz-ness</p>
+        <p>&gt; I can be contacted by Email (on the top right and in the bottom). Apparently everyone uses this for bizz-ness</p>
 
         <div className="my-4 grid grid-cols-1 gap-3">
             {postPreviews}
