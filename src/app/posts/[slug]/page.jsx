@@ -13,7 +13,7 @@ export function generateMetadata(props) {
     const slug = props.params.slug;
     const post = getPost(slug);
     return {
-        title: post.data.title,
+        title: `${post.data.title} - DaStoopidGuy`,
     }
 }
 
@@ -23,8 +23,8 @@ export default function (props) {
 
     return (
         <>
+            <h1 className="text-3xl font-bold">{post.data.title}</h1>
             <article className="prose prose-base prose-invert text-primary prose-headings:text-primary marker:text-primary max-w-none">
-                <h1>{post.data.title}</h1>
                 <Markdown>{post.content}</Markdown>
             </article>
         </>
