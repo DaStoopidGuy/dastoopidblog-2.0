@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/logo.png";
+import EmailLink from "./EmailLink";
 
 export default function Navbar() {
     return (
@@ -9,6 +10,7 @@ export default function Navbar() {
                 <Image src={logo} alt="logo" className="w-auto h-12" />
                 DaStoopidGuy
             </Link>
+            <EmailLink />
         </nav>
     );
 }
