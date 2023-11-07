@@ -1,8 +1,8 @@
 ---
 tags: [SICS-3]
 title: Good-Bye Mr. Chips
-created: '2023-10-16T13:25:24.216Z'
-modified: '2023-10-16T13:54:24.545Z'
+date: '2023-01-03'
+description: "FUCKK"
 ---
 
 # Good-Bye Mr. Chips

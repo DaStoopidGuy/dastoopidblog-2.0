@@ -1,8 +1,8 @@
 ---
 tags: [Physics, SICS-3]
 title: Electric Flux
-created: '2023-07-24T12:48:33.439Z'
-modified: '2023-07-24T13:15:02.658Z'
+date: '2023-12-01'
+description: "FUCKK"
 ---
 
 # Electric Flux

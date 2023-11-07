@@ -1,8 +1,8 @@
 ---
 tags: [ICS-1, PHY]
 title: 'Chapter 8: Waves'
-created: '2023-02-03T11:17:21.573Z'
-modified: '2023-02-21T17:22:51.751Z'
+date: '2023-01-01'
+description: "FUCKK"
 ---
 
 # Chapter 8: Waves

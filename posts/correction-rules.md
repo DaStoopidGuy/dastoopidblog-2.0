@@ -1,8 +1,8 @@
 ---
 tags: [English, SICS-3]
 title: Correction Rules
-created: '2023-07-24T12:29:43.638Z'
-modified: '2023-07-24T12:47:09.500Z'
+date: '2023-01-02'
+description: "FUCKK"
 ---
 
 # Correction Rules

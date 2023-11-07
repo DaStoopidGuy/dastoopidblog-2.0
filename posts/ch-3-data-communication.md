@@ -1,8 +1,8 @@
 ---
 tags: [Computer, ICS-1]
 title: Ch.3 Data Communication
-created: '2023-03-27T17:40:57.797Z'
-modified: '2023-03-27T18:04:03.335Z'
+date: '2023-01-05'
+description: "FUCKK"
 ---
 
 # Ch.3 Data Communication

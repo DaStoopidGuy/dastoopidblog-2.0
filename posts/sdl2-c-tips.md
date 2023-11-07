@@ -1,8 +1,7 @@
 ---
 title: SDL2 / C Tips
-date: '2023-07-15T12:08:09.908Z'
+date: '2023-01-01'
 description: "FUCKK"
-modified: '2023-07-15T12:08:20.073Z'
 ---
 
 This answer is about MinGW / GCC, and not Visual Studio.
