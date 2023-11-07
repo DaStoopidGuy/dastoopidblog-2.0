@@ -9,9 +9,18 @@ export async function generateStaticParams() {
     });
 }
 
+export function generateMetadata(props) {
+    const slug = props.params.slug;
+    const post = getPost(slug);
+    return {
+        title: post.data.title,
+    }
+}
+
 export default function (props) {
     const slug = props.params.slug;
     const post = getPost(slug);
+
     return (
         <>
             <article className="prose prose-base prose-invert text-primary prose-headings:text-primary marker:text-primary max-w-none">
