@@ -21,7 +21,7 @@ const HomePage = () => {
         <h1 className="text-2xl font-bold " >Hello friend. 🍎</h1>
         <p>
             Wecome to the cozy palace of DaStoopidGuy 🗿. I'm just your Friendly Neighbourhood NerdyMan. I learnt to code on my own,
-            staring 4 years ago. I'm still in tutorial hell.
+            starting 4 years ago. I'm still in tutorial hell.
         </p>
         <p><strong>FUN FACT:</strong> I made this website in a day. ( I was sick and stayed at home 😔)</p>
         <p> Also, I hate going to college. Yayy.</p>
