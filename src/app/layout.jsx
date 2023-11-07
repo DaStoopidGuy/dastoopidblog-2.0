@@ -2,6 +2,7 @@ import "@/styles/global.css"
 import Navbar from "../components/NavBar";
 import { FaGithub } from "react-icons/fa";
 import { Pixelify_Sans } from 'next/font/google'
+import GithubLink from "../components/GithubLink";
 
 const pixelify = Pixelify_Sans({
   subsets: ["latin"],
@@ -22,9 +23,7 @@ export default function RootLayout({ children }) {
   const footer = (
     <footer className="flex items-center justify-center font-thin text-sm">
       More stuffs on Github:&nbsp;
-      <a className="flex items-center hover:underline" href="https://github.com/DaStoopidGuy" target="_blank" rel="noopener noreferrer">
-        <FaGithub /> DaStoopidGuy
-      </a>
+      <GithubLink />
     </footer>
   );
 
