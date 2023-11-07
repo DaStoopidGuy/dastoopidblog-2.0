@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getPostsMetadata } from "@/src/lib/posts"
 import { PostPreview } from "../components/PostPreview";
 
@@ -21,7 +20,8 @@ const HomePage = () => {
         <p>Uh... I meant I'm available for any projects if you're looking for someone like me 🤓</p>
         <p>&gt; I can be contacted by Email (on the top right and in the bottom). Apparently everyone uses this for bizz-ness</p>
 
-        <div className="my-4 grid grid-cols-1 gap-3">
+        <h2 className="text-2xl font-bold">Posts</h2>
+        <div className="mt-2 mb-4 grid grid-cols-1 gap-3">
             {postPreviews}
         </div>
     </div>;
