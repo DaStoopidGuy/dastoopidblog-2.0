@@ -7,7 +7,7 @@ description: 'Stoopid description'
 Hey 😈 
 ![confused berzan](https://media.giphy.com/media/ji6zzUZwNIuLS/giphy.gif)
 I made this website yesterday. My back hurts like hell. 
-I hadn't coded in a while, so i followed a [tutorial](https://youtu.be/1QGLHOaRLwM?si=d7LZQobsMz3BbxzV)...
+I hadn't coded in a while, so i followed a [tutorial](https://youtu.be/Hiabp1GY8fA?si=9Z7TYNKqLR5Lv9c2)...
 I dont feel good about following a tutorial.  
 **I'm still in tutorial hell**
 ![woltor woite](https://media.giphy.com/media/3o72FiAgLm34QKLSnK/giphy.gif)
