@@ -12,7 +12,7 @@ const pixelify = Pixelify_Sans({
 export const metadata = {
   title: 'DaStoopidGuy\'s Blog',
   description: 'The personal website of DaStoopidGuy',
-  icons: '/images/seb_logo2.png'
+  // icons: '/images/seb_logo2.png'
 }
 
 export default function RootLayout({ children }) {
