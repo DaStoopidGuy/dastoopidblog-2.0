@@ -31,7 +31,7 @@ const HomePage = () => {
         <p>&gt; I can be contacted by Email (on the top right and in the bottom). Apparently everyone uses this for bizz-ness</p>
 
         <h2 className="text-2xl font-bold">Posts</h2>
-        <div className="mt-2 mb-4 grid grid-cols-1 gap-3">
+        <div className={`mt-2 mb-4 grid ${postPreviews.length > 1 ? 'grid-cols-2' : 'grid-cols-1'} gap-3`}>
             {postPreviews}
         </div>
     </div>;
