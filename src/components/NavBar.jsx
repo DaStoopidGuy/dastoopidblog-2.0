@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import EmailLink from "./EmailLink";
-import image from "@/public/images/seb_logo1.png"
+import image from "@/public/images/seb_logo2.png"
 
 export default function Navbar() {
     return (
