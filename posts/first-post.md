@@ -13,4 +13,5 @@ I dont feel good about following a tutorial.
 ![woltor woite](https://media.giphy.com/media/3o72FiAgLm34QKLSnK/giphy.gif)
 
 **THIS IS A CRY FOR HELP PLEZ HELP ME**  
-also uh, the repo of this website is currently private on my github. let me know if you want to see the source code. 👹
+also uh, the [repo of this website](https://github.com/DaStoopidGuy/dastoopidblog-2.0) is available on on [my github](https://github.com/DaStoopidGuy)
+ if you want to see the source code. 👹
